@@ -1,0 +1,50 @@
+{
+  "name": "nusl-extension",
+  "version": "0.3.0",
+  "description": "For NUS alumni and NUS Libraries external members to access electronic resources on-site.",
+  "main": "popup.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --progress --hot --open",
+    "lint": "esw ./app/**/*.js",
+    "lint:watch": "npm run lint -- --watch",
+    "build": "webpack --mode production --progress"
+  },
+  "author": "Belson Heng",
+  "license": "MIT",
+  "respository": "",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.0",
+    "uglifyjs-webpack-plugin": "^1.2.7",
+    "url-loader": "^1.0.1",
+    "vue-loader": "^15.2.6",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.2",
+    "@fortawesome/free-solid-svg-icons": "^5.2.0",
+    "@fortawesome/vue-fontawesome": "^0.1.1",
+    "axios": "^0.18.0",
+    "countdown-vue": "^0.1.2",
+    "jquery": "^3.3.1",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.22.2",
+    "npm": "^6.4.1",
+    "vue": "^2.5.16",
+    "vue-js-modal": "^1.3.26",
+    "vue-perfect-scrollbar": "^0.1.0",
+    "vuex": "^3.0.1"
+  }
+}
