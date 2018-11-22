@@ -42,7 +42,7 @@
           <p class="is-bold nus-orange">NUS IT Acceptable Use Policy for IT Resources</p>
           <p>
             Users must also comply with
-            <a href="https://share.nus.edu.sg/opc/NUSpolicy/Shared%20Documents/AUP%20v4.2.pdf">
+            <a href="https://nusit.nus.edu.sg/services/it_security/acceptable-use-policy-aup/">
               NUS IT Acceptable Use Policy for IT Resources
             </a>.
           </p>
