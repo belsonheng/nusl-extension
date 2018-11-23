@@ -3,7 +3,7 @@
 
   "name": "NUS Libraries Extension",
   "author": "Belson Heng",
-  "description": "For NUS alumni and NUS Libraries external members to access electronic resources on-site.",
+  "description": "For NUS alumni and NUS Libraries external members to access electronic resources onsite.",
   "version": "0.3.0",
   "background": {
     "page": "background.html",
@@ -14,16 +14,6 @@
     "default_title": "NUS Libraries",
     "default_popup": "popup.html"
   },
-  "content_scripts": [
-    {
-      "matches": ["file://*/*"],
-      "js": [
-        "popup.js"
-      ],
-      "run_at": "document_start",
-      "all_frames": true
-    }
-  ],
   "icons": {
     "16": "assets/icons/e-resources_icon_16px.png",
     "48": "assets/icons/e-resources_icon_48px.png",
@@ -34,7 +24,10 @@
     "browsingData",
     "notifications",
     "tabs",
-    "activeTab"
+    "activeTab",
+    "http://*/*",
+    "https://*/*",
+    "ftp://*/*"
   ],
   "web_accessible_resources": [
     "icons/*.png"
