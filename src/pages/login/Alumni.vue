@@ -88,7 +88,7 @@
           })
           .catch(function(error) {
             this.flash({
-              'message': 'Invalid email or password',
+              'message': error.data.non_field_errors[0] || 'Invalid email or password',
               'timeout': 5000
             })
           }.bind(this))
